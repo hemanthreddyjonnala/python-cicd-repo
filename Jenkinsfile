@@ -7,7 +7,7 @@ pipeline {
 		stage('Git Checkout') {
             steps {
                 echo 'Code checkout.'
-                git branch: 'main', url: 'https://github.com/cvamsikrishna11/python-cicd-repo.git'
+                git branch: 'main', url: 'https://github.com/hemanthreddyjonnala/python-cicd-repo.git'
             }
         }
 		
